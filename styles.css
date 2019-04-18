@@ -228,6 +228,12 @@ button {
   color:#DD4B39;
   transition:0.5s;
 }
+.fa-snapchat-ghost:hover {
+  background-color:#FFFC00;
+  color:white;
+  transition:0.5s;
+  border-radius:50%;
+}
 .fa-twitter:hover{
   color:#00acee;
   transition:0.5s;
