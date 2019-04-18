@@ -2,6 +2,31 @@ html {
   background-color: #eeeeee;
   scroll-behavior: smooth;
 }
+nav {
+  padding:10px;
+  opacity: 0.7;
+}
+nav ul {
+  float: right;
+  margin-right: 3%;
+}
+nav ul li {
+  display: inline-block;
+}
+nav ul li a {
+  text-decoration: none;
+  text-align: center;
+  display: block;
+  padding:10%;
+  margin-right: 7%;
+  font-size: 2vw;
+  color:white;
+}
+nav ul li a:hover {
+  background-color: rgba(255,255,255,0.67);
+  border-radius: 10%;
+  transition: 0.5s;
+}
 .Top {
   box-sizing: border-box;
   margin:0;
@@ -79,7 +104,7 @@ html {
   padding-top: 20px;
 }
 #hobbies{
-  margin-top: -3.6%;
+  margin-top: -3.7%;
 }
 .Hobbies img {
   height:18vw;
