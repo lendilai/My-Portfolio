@@ -1,5 +1,6 @@
 html {
   background-color: #eeeeee;
+  scroll-behavior: smooth;
 }
 .Top {
   box-sizing: border-box;
@@ -34,8 +35,15 @@ html {
   text-decoration: none;
   color:white;
 }
+.Top .fa-angle-double-down {
+  margin-top:10%;
+  border:1px dotted white;
+  padding: 10px;
+  border-radius: 50%;
+}
 .Intro {
   margin-top: 15%;
+  padding-bottom: 8%;
   display: flex;
   width:100%;
   box-sizing: content-box;
@@ -70,8 +78,8 @@ html {
   padding-bottom: 40px;
   padding-top: 20px;
 }
-.hobbies h1 {
-  text-decoration: underline;
+#hobbies{
+  margin-top: -3.6%;
 }
 .Hobbies img {
   height:18vw;
@@ -128,6 +136,18 @@ padding-left: 22%;
   font-family: 'Indie Flower';
   font-size: 3vw;
 }
+.hobbies {
+  text-align: center;
+}
+.hobbies .fa-angle-double-down {
+  font-size: 1.77vw;
+  color:black;
+}
+.Hobbies .fa-angle-double-down {
+  margin-top:5%;
+  color:black;
+  font-size: 1.77vw;
+}
 .Projects {
   margin-top: 8%;
   text-align: center;
@@ -177,6 +197,18 @@ button {
   font-size: 1.4vw;
   font-family: 'fantasy';
   border: 0;
+}
+#angle {
+  font-size: 1.77vw;
+  text-decoration: none;
+  color: black;
+  display: flex;
+  justify-content: center;
+}
+.fa-angle-double-down {
+  border:1px dotted black;
+  padding: 10px;
+  border-radius: 50%;
 }
 .Contacts {
   text-align: center;
