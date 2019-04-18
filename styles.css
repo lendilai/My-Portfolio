@@ -30,6 +30,7 @@ html {
   display: flex;
   width:100%;
   box-sizing: content-box;
+  justify-content: center;
 }
 .Intro h1, .Intro p {
   font-size: 1.5vw;
@@ -39,7 +40,7 @@ html {
   text-align: left;
   border-right: 1px dotted rgb(121,121,121);
 }
-.Intro .Future p{
+.Intro .Job p{
   border: 0;
 }
 .Intro img {
@@ -51,11 +52,17 @@ html {
 .Intro div {
   width: 26vw;
   text-align: center;
-  padding-right:0.8%;
+  padding-right:3%;
 }
 .Hobbies {
   margin-top: 15%;
   text-align: center;
+  background-color: rgb(192,192,192);
+  padding-bottom: 40px;
+  padding-top: 20px;
+}
+.hobbies h1 {
+  text-decoration: underline;
 }
 .Hobbies img {
   height:18vw;
@@ -110,7 +117,17 @@ padding-left: 22%;
 }
 
 .Projects {
-  margin-top: 15%;
+  margin-top: 8%;
+  text-align: center;
+  padding-bottom: -40%;
+}
+.Projects h1{
+  padding-bottom: 2%;
+}
+.Projects p{
+  padding-bottom: 4%;
+  font-size: 2vw;
+  border-bottom: 1px solid rgb(169,169,169);
 }
 .Projects img {
   height: 20vw;
@@ -119,23 +136,15 @@ padding-left: 22%;
 }
 .Projects img:hover {
   opacity: 0.67;
+  transition:0.3s;
 }
 .Projects div {
+  display: flex;
   justify-content: space-between;
 }
-.Projects .Tembea {
-  display: flex;
-  float: right;
-  padding-right: 2%;
-}
-.Projects .Twende {
-  display: flex;
-  float: right;
-}
-.Projects .Game {
-  display: flex;
-  float: right;
-  padding-right: 2%;
+.Projects div div {
+  width:30%;
+  flex-wrap: wrap;
 }
 .Contacts {
   margin-top: 30%;
@@ -143,7 +152,7 @@ padding-left: 22%;
 button {
   margin-top: 30%;
   margin-left: -50%;
-  padding: 3% 10%;
+  padding:2% 10% 12% 10%;
   border-radius: 10px;
   box-sizing: content-box;
   color:white;
@@ -154,4 +163,30 @@ button {
   font-size: 1.4vw;
   font-family: 'fantasy';
   border: 0;
+}
+.Contacts {
+  text-align: center;
+  font-size: 1.8vw;
+  color:white;
+  background-color: #555555;
+  background-position: center;
+  padding-top: 15px;
+  padding-bottom: 100px;
+}
+.Contacts i {
+  padding:10px;
+  font-size: 2vw;
+  color:white;
+}
+.fa-google:hover{
+  color:#DD4B39;
+  transition:0.5s;
+}
+.fa-twitter:hover{
+  color:#00acee;
+  transition:0.5s;
+}
+.fa-instagram:hover{
+  color:#3f729b;
+  transition:0.5s;
 }
