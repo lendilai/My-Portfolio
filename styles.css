@@ -240,6 +240,12 @@ button {
   padding: 10px;
   border-radius: 50%;
 }
+.fa-angle-double-down:hover {
+  color:orange;
+}
+.fa-chevron-circle-up:hover {
+  color:coral;
+}
 .Contacts {
   text-align: center;
   font-size: 1.8vw;
