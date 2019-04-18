@@ -1,0 +1,157 @@
+html {
+  background-color: #eeeeee;
+}
+.Top {
+  box-sizing: border-box;
+  margin:0;
+  height: 100vh;
+  background-image: url(http://www.newdesignfile.com/postpic/2013/08/cool-plain-black-wallpaper_221300.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  color:white;
+  padding-top:32vh;
+  font-size: 1.8vw;
+  font-style: italic;
+  text-align: center;
+  z-index: 2;
+  font-family: 'Lora' serif;
+}
+.Top p:nth-child(1){
+  font-size: 4vw;
+  font-style: normal;
+}
+.Top p:last-child{
+  margin-top: -3%;
+}
+.Intro {
+  margin-top: 15%;
+  display: flex;
+  width:100%;
+  box-sizing: content-box;
+}
+.Intro h1, .Intro p {
+  font-size: 1.5vw;
+  font-family: 'PT Serif' serif;
+}
+.Intro p {
+  text-align: left;
+  border-right: 1px dotted rgb(121,121,121);
+}
+.Intro .Future p{
+  border: 0;
+}
+.Intro img {
+  width:7vw;
+  height:7vw;
+  padding-top: 10px;
+  border-radius: 50%;
+}
+.Intro div {
+  width: 26vw;
+  text-align: center;
+  padding-right:0.8%;
+}
+.Hobbies {
+  margin-top: 15%;
+  text-align: center;
+}
+.Hobbies img {
+  height:18vw;
+  width:18vw;
+  float: left;
+  padding: 2%;
+  border-radius: 50%;
+}
+.Hobbies1 {
+  display:flex;
+  padding-left: 10%;
+  padding-top: 4%;
+}
+.Hobbies1 div {
+  width:30%;
+}
+.Hobbies2 {
+display: flex;
+padding-top: 5vh;
+padding-left: 22%;
+}
+.Hobbies2 div {
+  width: 46%;
+}
+#Walking {
+  padding-right: 25%;
+}
+@keyframes Hobbies{
+  0%{transform:scale(1);}
+  50%{transform:scale(1.05);}
+  100%{transform:scale(1);}
+}
+.Hobbies img {
+  animation-name:Hobbies;
+  animation-duration: 2.1s;
+  animation-direction: normal;
+  animation-iteration-count: infinite;
+  transition-timing-function:ease-in-out;
+}
+.Hobbies img:hover {
+  filter:blur(1px);
+  animation-play-state: paused;
+}
+.Hobbies span {
+  visibility: visible;
+  margin-right:30%;
+  background-color:black;
+  color:white;
+  padding:7px;
+  width:10vw;
+  border-radius: 10px;
+}
+
+.Projects {
+  margin-top: 15%;
+}
+.Projects img {
+  height: 20vw;
+  width: 20vw;
+  border-radius: 50%;
+}
+.Projects img:hover {
+  opacity: 0.67;
+}
+.Projects div {
+  justify-content: space-between;
+}
+.Projects .Tembea {
+  display: flex;
+  float: right;
+  padding-right: 2%;
+}
+.Projects .Twende {
+  display: flex;
+  float: right;
+}
+.Projects .Game {
+  display: flex;
+  float: right;
+  padding-right: 2%;
+}
+.Contacts {
+  margin-top: 30%;
+}
+button {
+  margin-top: 30%;
+  margin-left: -50%;
+  padding: 3% 10%;
+  border-radius: 10px;
+  box-sizing: content-box;
+  color:white;
+  background-color: blue;
+  height:2%;
+  width:15%;
+  text-align: center;
+  font-size: 1.4vw;
+  font-family: 'fantasy';
+  border: 0;
+}
