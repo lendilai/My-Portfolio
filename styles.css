@@ -23,7 +23,6 @@ nav ul li a {
   text-align: center;
   display: block;
   padding:10%;
-  margin-right: 7%;
   font-size: 2vw;
   color:white;
 }
@@ -242,9 +241,11 @@ button {
 }
 .fa-angle-double-down:hover {
   color:orange;
+  transition: 0.5s;
 }
 .fa-chevron-circle-up:hover {
   color:coral;
+  transition: 0.5s;
 }
 .Contacts {
   text-align: center;
