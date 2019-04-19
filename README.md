@@ -10,7 +10,7 @@
 ![](Images/Projects.png)
 
 ## Setup
-{ The portfolio is only available for online access thus is sadly not available for installation.}
+{ The portfolio is only available for online access thus is sadly not available for installation. Here is a live link to the website: (https://lendilai.github.io/My-portfolio/)}
 
 ## Known Bugs
 { There are no known bugs so far. However, you can reach out to me if you come across any.}
