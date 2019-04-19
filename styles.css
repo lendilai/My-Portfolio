@@ -29,7 +29,7 @@ nav ul li a {
 nav ul li a:hover {
   background-color: rgba(255,255,255,0.67);
   border-radius: 10%;
-  transition: 0.5s;
+  transition: 0.7s;
 }
 .Top {
   box-sizing: border-box;
@@ -65,7 +65,7 @@ nav ul li a:hover {
   color:white;
 }
 .Top .fa-angle-double-down {
-  margin-top:10%;
+  margin-top:5%;
   border:1px dotted white;
   padding: 10px;
   border-radius: 50%;
@@ -171,6 +171,7 @@ padding-left: 22%;
 .hobbies .fa-angle-double-down {
   font-size: 1.77vw;
   color:black;
+  margin-top: -2%;
 }
 .Hobbies .fa-angle-double-down {
   margin-top:5%;
